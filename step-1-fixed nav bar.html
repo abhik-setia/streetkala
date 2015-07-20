@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>FIXED NAV_BAR</title>
+		<meta name="author" content="ABHIK">
+		<link rel="stylesheet" type="text/css" href="navbar.css">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="jquery-1.11.3.js"></script>
+		
+		<script type="text/javascript">
+		$(document).on("scroll",function(){
+			if($(document).scrollTop()>100){ 
+				$("header").removeClass("large").addClass("small");
+				}
+			else{
+				$("header").removeClass("small").addClass("large");
+				}
+			});
+	</script>
+	
+	</head>
+	<body>
+	<header class="large">
+	 <nav>
+		<img class="logo" src="wdd.png"/>
+		<ul class="nav-bar">
+			<li id="nav-items"><a class="active" href="#">HOME</a></li>
+			<li id="nav-items"><a href="#">ABOUT-US</a></li>
+			<li id="nav-items"><a href="#">EVENTS</a></li>
+			<li id="nav-items"><a href="#">CONTACT-US</a></li>
+		</ul>
+	 </nav>
+	</header>
+	<div></div>
+	</body>
+	
+	<footer></footer>
+</html>
