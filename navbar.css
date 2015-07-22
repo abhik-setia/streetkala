@@ -44,9 +44,10 @@ text-decoration:none;
 font-family:verdana;
 }
 
-header a.active, header a:hover{
+ header a:hover{
 	color:white;
 }
+
 header li{
 margin-right:30px;
 }
