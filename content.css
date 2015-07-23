@@ -44,7 +44,8 @@ height:400px;
 margin-top:20px;
 margin-left:70px;
 float:left;
-
+border: 2px solid black;
+box-shadow: 5px 5px 5px 5px grey;
 }
 
 
@@ -76,4 +77,43 @@ width:97%;
 position:relative;
 background: url("bk.jpg") center center ;
 border-radius:3px;
+}
+#team{
+  height:700px;
+  width:100%;
+  background-color:#E6E6E7;
+  float:left;
+  clear:both;
+  margin:0px;
+  padding:0px;
+  z-index:-1;
+}
+#c2{
+  margin:20px;
+  height:660px;
+  background-color:white;
+  border-radius:10px;
+  z-index:-1;
+}
+#c2 h1{
+  text-align: center;
+  margin-top: 70px;
+  color:#222;
+  font-family:fantasy;
+  font-weight: bold;
+  font-size:50px;
+}
+#underline{
+  position: relative;
+  margin: 0 auto;
+  border: 3px solid grey;
+  height: 0;
+  width:180px;
+}
+#c2 img{
+  width:auto;
+  height:auto;
+  margin-top: 10px;
+  margin-left: 17.5%;
+  position: relative;
 }
