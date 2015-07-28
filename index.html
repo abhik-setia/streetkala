@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>FIXED NAV_BAR</title>
+		<title>STREETKALA</title>
 		<meta name="author" content="ABHIK">
 		<link rel="stylesheet" type="text/css" href="navbar.css">
 		<link rel="stylesheet" type="text/css" href="content.css">
 		<link rel="stylesheet" type="text/css" href="slide.css">
 		<link rel="stylesheet" type="text/css" href="form.css">
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
-		<!--<script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>-->
-		<script src="/cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script>
+		<script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+		<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="gal.css">
 		<script src="gal.js"></script>
 
@@ -30,7 +30,7 @@
 		$('a[href*=#]').click(function(event){$('html, body').animate({scrollTop: $( $.attr(this, 'href') ).offset().top }, 5000); event.preventDefault(); }); </script>
 
 	</head>
-	<body>
+	<body>z
 	<header class="large">
 	 <nav>
 		<img class="logo" src="logo.jpg"/>
@@ -178,6 +178,10 @@
 			    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
 			    // You can also use header('Location: thank_you.php'); to redirect to another page.
 			    // You cannot use header and echo together. It's one or the other.
+			    }
+			    else
+			    {
+			    	echo "post variable not set";
 			    }
 			?>
 			</div>
